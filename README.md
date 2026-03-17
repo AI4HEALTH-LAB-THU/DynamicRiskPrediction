@@ -1,5 +1,9 @@
 # From snapshots to trajectories in chronic disease risk stratification
 A clinically interpretable and model-agnostic framework for chronic disease risk stratification using longitudinal physiological features
 
+01_ModelDevelopmentValidation: The Python code in this directory pertains to the workflow of model development and validation.
+
+02_StatisticalAnalysis: The R code in this directory is for the procedures of statistical analysis and visualization.
+
 ![Fig1](https://github.com/user-attachments/assets/9cbbee30-b346-4420-bce3-56d52a1bd3f2)
 
