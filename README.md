@@ -58,7 +58,8 @@ Using venv:
 python -m venv venv
 source venv/bin/activate
 
-### 3. Demo
+
+### 3.Demo
 
 A small demo dataset is provided to illustrate the workflow and allow users and reviewers to test the software without access to the full study dataset.
 
