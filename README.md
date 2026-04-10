@@ -64,11 +64,47 @@ source venv/bin/activate
 
 A small demo dataset is provided to illustrate the workflow and allow users and reviewers to test the software without access to the full study dataset.
 
-### Instructions to run on data
+### 3.1 Instructions to run on data
 
 Please place the demo data in the designated folder, for example:
 
 data/train_test_dataset/bench_dynamic_251206/MI_Sample_Data/feather
+
+### 3.2 Expected output
+
+After successful execution, the software will generate output files in the output directory. These include:
+	•	predicted risk scores for each sample
+	•	model evaluation metrics
+	•	serialized trained model objects
+	•	logs of training or inference
+
+Typical evaluation outputs include:
+	•	AUROC
+	•	AUPRC
+	•	Brier score
+	•	selected features
+	•	optimized hyperparameters
+
+### 3.3 Expected run time for demo on a “normal” desktop computer
+
+The demo typically completes within:
+	•	40–80 minutes on a 32 CPUs server
+
+The exact run time depends on CPU performance and the size of the demo dataset.
+
+## 4. Instructions for use
+
+### 4.1 How to run the software on your data
+
+To apply the software to your own data, prepare an input file in feather format with the same variable names, coding scheme, and structure expected by the scripts.
+
+General workflow
+	1.	Prepare the input dataset
+	2.	Perform preprocessing
+	3.	Run feature selection if required
+	4.	Train the model or load a pretrained model
+	5.	Generate predictions
+	6.	Evaluate model performance
 
 ![Fig1](https://github.com/user-attachments/assets/9cbbee30-b346-4420-bce3-56d52a1bd3f2)
 
