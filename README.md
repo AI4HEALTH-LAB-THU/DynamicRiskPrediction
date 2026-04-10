@@ -48,7 +48,7 @@ is recommended.
 
 #### Step 1. Clone the repository
 
-```bash
+
 git clone https://github.com/AI4HEALTH-LAB-THU/DynamicRiskPrediction.git
 cd DynamicRiskPrediction
 
@@ -59,11 +59,12 @@ python -m venv venv
 source venv/bin/activate
 
 
-### 3.Demo
+## 3. Demo
+
 
 A small demo dataset is provided to illustrate the workflow and allow users and reviewers to test the software without access to the full study dataset.
 
-#### Instructions to run on data
+### Instructions to run on data
 
 Please place the demo data in the designated folder, for example:
 
